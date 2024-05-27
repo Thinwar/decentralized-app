@@ -1,0 +1,325 @@
+/* General Styles */
+body {
+    background-image: url("Pictures/background.jpg;")
+    back
+ }
+  
+
+  
+  
+  /* Header Styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: #ccc;
+  }
+  /* Navigation Bar Styles */
+nav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Styles for the "Home" link */
+  nav a[href="index.html"] {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Main Content Styles */
+  main {
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  h2{
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: green
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+  /* Styles for the "About Me" section */
+.about-me {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-me h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  p{font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  .about-me p {
+    font-size: 48px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #555;
+  }
+
+  li{font-size: 24px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #555;
+ }
+  
+  /* Styles for the "My Hobbies and Interests" section */
+  .hobbies {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .hobbies h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .hobbies ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .hobbies li {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 10px;
+  }
+
+
+  
+  
+  /* Contact Form Styles */
+.contact-form {
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form h2 {
+    font-size: 28px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: row;
+    align:center
+  }
+  
+  .contact-form label {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form textarea {
+    resize: horizontal;
+    min-height: 120px;
+  }
+  
+  .contact-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  label {
+    margin-top: 10px;
+  }
+  
+  input, textarea {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  /* About Me Section */
+.about-me {
+    background-color: #f9f9f9;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .about-me h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .about-me p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  
+  .hobbies {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .hobbies li {
+    font-size: 20px;
+    color: #333;
+    background-color: #e9e9e9;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 20px;
+  }
+  
+  .hobbies li:hover {
+    background-color: #d9d9d9;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 10px;
+  }
+  
+  input, textarea {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+h2{
+    font-family: Arial, sans-serif;
+  font-size: 36px;
+  color: black
+ }
+
+ body{
+    background-image: "Pictures/deku.jfif" ;
+
+
+ }
